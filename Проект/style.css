@@ -1,0 +1,221 @@
+/* Общие */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body{
+    margin: 0;
+    background-image: url(img/background.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin:0;
+}
+
+h1{
+    font-size: 21px; 
+}
+
+
+@media (min-width: 700px)
+{
+    h1{
+        font-size: 32px;
+    }
+}
+
+@media(min-width: 640px)
+{
+    h1{
+        font-size: 26px; 
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #8B00FF;
+}
+/* header */
+header{
+    display: none;
+}
+
+@media(min-width: 540px)
+{
+    header{
+        display: flex;
+        height:60px;
+        padding-left:3px; 
+        background: rgba(38, 37, 37, 0.74);
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+}
+
+@media(min-width: 640px)
+{
+    header{
+        display: flex;
+        height:100px;
+        padding-left:3px; 
+        background: rgba(38, 37, 37, 0.74);
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+}
+
+@media(min-width: 900px)
+{
+    header{
+        display: flex;
+        height:100px;
+        padding-left:3px; 
+        background: rgba(38, 37, 37, 0.74);
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 100px;
+    }
+}
+
+
+.about_me, .examples__, .telephone{
+    font-size: 15px;
+}
+
+@media(min-width: 640px)
+{
+    .about_me, .examples__, .telephone{
+        font-size: 20px;
+    }
+}
+
+@media( min-width:830px)
+{
+    .about_me, .examples__, .telephone{
+        font-size: 24px;
+    }
+}
+
+.width_problem{
+    width: 100px;
+}
+
+.width_problem:last-child{
+    width: 200px;
+}
+
+.about_me:hover, .examples__:hover, .telephone:hover{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: violet 1px solid;
+}
+
+.p_about_me{
+    font-size: 20px;
+}
+
+.mine_img{
+    width: 250px;
+    height: 300px;
+    padding: 20px 15px 20px 25px;
+}
+
+.my_life{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.life{
+    display: flex;
+    background: rgba(138, 123, 123, 0.72);
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    padding: 20px 30px;
+}
+
+.life:hover{
+    background: rgba(142, 122, 122, 0.8);
+}
+
+.examples{
+    width: 100%;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.examples_h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.examples_1{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 245px;
+}
+
+.examples_2{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 245px;
+}
+
+/* 1. footer */
+
+footer{
+    color:white;
+    display:flex;
+    flex-direction:row;
+    background: rgba(38, 37, 37, 0.74);
+    justify-content:space-between;
+    padding:40px 25px;
+}
+
+.links_to_me{
+    text-align: center;
+}
+
+.mine_links{
+    margin-left: 40px;
+    display:flex;
+    flex-direction:column;
+}
+
+.subdiv_mine_links{
+    margin:20px;
+    display: flex;
+    text-align: center;
+}
+
+.inst_links, .vk_links, .face_links{
+    font-size: 23px;
+    margin-left: 5px;
+}
+
+.email{
+    margin-top: 140px;
+}
+
+.email_small{
+    margin:0;
+}
+
+.email_links{
+    font-size: 23px;
+}
+
+.made_by{
+    margin-top: 180px;
+}
+
+.p_made_by, .a_made_by{
+    font-size: 23px;
+}
+
