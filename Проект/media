@@ -1,5 +1,7 @@
-@media(min-width: 540px)
-@media(min-width: 640px)
+@media(min-width:460px) основной
+@media(min-width: 540px) 
+@media(min-width: 640px) основной
 @media (min-width: 700px)
 @media( min-width:830px)
-@media(min-width: 900px)
+@media(min-width: 900px) основной
+@media(min-width:1180px)

@@ -22,7 +22,7 @@ h1{
 @media (min-width: 700px)
 {
     h1{
-        font-size: 32px;
+        font-size: 40px;
     }
 }
 
@@ -114,14 +114,59 @@ header{
     border-bottom: violet 1px solid;
 }
 
+.link:hover{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: violet 1px solid;
+}
+
+
+
 .p_about_me{
-    font-size: 20px;
+    font-size: 11.5px;
+}
+
+@media(min-width:460px)
+{
+    .p_about_me{
+        font-size: 15px;
+    }
+}
+
+@media(min-width:900px)
+{
+    .p_about_me{
+        font-size: 25px;
+    }
+}
+@media(min-width:640px)
+{
+    .p_about_me{
+        font-size: 22px;
+    }
 }
 
 .mine_img{
-    width: 250px;
-    height: 300px;
-    padding: 20px 15px 20px 25px;
+    width: 125px;
+    height: 125px;
+    padding: 20px 15px 0px 5px;
+}
+@media(min-width:460px)
+{
+    .mine_img{
+        width: 200px;
+        height: 200px;
+        padding: 20px 15px 0px 5px;
+    } 
+}
+@media(min-width:640px)
+{
+    .mine_img{
+        width: 210px;
+        height: 330px;
+        margin-top: 10px;
+        padding: 20px 15px 10px 5px;
+    }
 }
 
 .my_life{
@@ -133,14 +178,86 @@ header{
 .life{
     display: flex;
     background: rgba(138, 123, 123, 0.72);
-    height: 600px;
-    width: 900px;
+    height: 220px;
+    width: 330px;
     margin: auto;
-    padding: 20px 30px;
+}
+
+@media(min-width:460px)
+{
+    .life{
+        display: flex;
+        background: rgba(138, 123, 123, 0.72);
+        height: 320px;
+        width: 450px;
+        margin: auto;
+    }
+    
+}
+
+@media(min-width:900px)
+{
+    .life{
+        display: flex;
+        background: rgba(138, 123, 123, 0.72);
+        height: 430px;
+        width: 750px;
+        margin: auto;
+        padding: 10px 15px;
+    }
+}
+
+@media(min-width:640px)
+{
+    .life{
+        display: flex;
+        background: rgba(138, 123, 123, 0.72);
+        height: 470px;
+        width: 600px;
+        margin: auto;
+        padding: 10px 15px;
+    }
 }
 
 .life:hover{
     background: rgba(142, 122, 122, 0.8);
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+@media(min-width:460px)
+{
+    .img{
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media(min-width: 640px)
+{
+    .img{
+        width: 175px;
+        height: 175px;
+    }
+}
+
+@media(min-width:900px)
+{
+    .img{
+        width: 225px;
+        height: 225px;
+    }
+}
+
+@media(min-width:1180px)
+{
+    .img{
+        width: 300px;
+        height: 300px;
+    }
 }
 
 .examples{
@@ -152,19 +269,90 @@ header{
 
 .examples_h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
+}
+
+@media(min-width:460px)
+{
+    .examples_h2{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media(min-width:900px)
+{
+    .examples_h2{
+        text-align: center;
+        font-size: 40px;
+    }
 }
 
 .examples_1{
     display: flex;
     justify-content: space-between;
-    margin: 120px 245px;
+    margin: 30px 10px;
+}
+
+@media(min-width:460px)
+{
+    .examples_1{
+        display: flex;
+        justify-content: space-between;
+        margin: 90px 30px;
+    }
+}
+
+@media(min-width:900px)
+{
+    .examples_1{
+        display: flex;
+        justify-content: space-between;
+        margin: 120px 100px;
+    }
+}
+
+@media(min-width:1180px)
+{
+    .examples_1{
+        display: flex;
+        justify-content: space-between;
+        margin: 120px 130px;
+    }
 }
 
 .examples_2{
     display: flex;
     justify-content: space-between;
-    margin: 200px 245px;
+    margin: 30px 10px;
+}
+
+@media(min-width:460px)
+{
+    .examples_2{
+        display: flex;
+        justify-content: space-between;
+        margin: 90px 30px;
+    }
+}
+
+@media(min-width:900px)
+{
+    .examples_2{
+        display: flex;
+        justify-content: space-between;
+        margin: 120px 100px;
+    }
+}
+
+@media(min-width:1180px)
+{
+    .examples_2{
+        display: flex;
+        justify-content: space-between;
+        margin: 120px 130px;
+    }
+    
 }
 
 /* 1. footer */
@@ -219,3 +407,11 @@ footer{
     font-size: 23px;
 }
 
+.p_made_by{
+    width: 150px;
+}
+.a_made_by:hover{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: violet 1px solid;
+}
